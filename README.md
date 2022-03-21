@@ -15,7 +15,7 @@ gSystem->Load("libHelloWorld")
 
 To load with macro 
 ```
-R__LOAD_LIBRARY("libHelloWorld")
+R__LOAD_LIBRARY(libHelloWorld)
 ```
 
 To run the executable from `build`, first ensure you have installed the `.so` file and `_rdict.pcm` by running `make install`. Then 
